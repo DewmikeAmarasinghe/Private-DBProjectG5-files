@@ -1,0 +1,58 @@
+@font-face {
+    font-display: swap; 
+    font-style: normal;
+    src: url("/public/fonts/SoraBold.ttf");
+    font-family: "Sora"; 
+    font-weight: 700;
+}
+@font-face {
+    font-display: swap; 
+    font-style: normal;
+    src: url("/public/fonts/SoraMedium.ttf");
+    font-family: "Sora"; 
+    font-weight: 400;
+}
+@font-face {
+    font-display: swap; 
+    font-style: normal;
+    src: url("/public/fonts/SoraSemiBold.ttf");
+    font-family: "Sora"; 
+    font-weight: 600;
+}
+@font-face {
+    font-display: swap; 
+    font-style: normal;
+    src: url("/public/fonts/PoppinsMedium.ttf");
+    font-family: "Poppins"; 
+    font-weight: 500;
+}
+@font-face {
+        font-display: swap; 
+        font-style: normal;
+        src: url("/public/fonts/PoppinsBlack.ttf");
+        font-family: "Poppins"; 
+        font-weight: 900;
+}
+@font-face {
+        font-display: swap; 
+        font-style: normal;
+        src: url("/public/fonts/PoppinsRegular.ttf");
+        font-family: "Poppins"; 
+        font-weight: 400;
+}
+@font-face {
+        font-display: swap; 
+        font-style: normal;
+        src: url("/public/fonts/ManropeExtraBold.ttf");
+        font-family: "Manrope"; 
+        font-weight: 800;
+}
+@font-face {
+        font-display: swap; 
+        font-style: normal;
+        src: url("/public/fonts/ManropeSemiBold.ttf");
+        font-family: "Manrope"; 
+        font-weight: 600;
+}
+
+

@@ -1,0 +1,59 @@
+
+.bank-transfer-input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.input-field:hover,
+.input-field:focus {
+    background-color: rgba(0, 0, 0, 0.08);
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.input-field:focus~.input-label,
+.input-field:not(:placeholder-shown)~.input-label {
+    top: -8px;
+    left: 5px;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.currency-adornment {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.input-field.with-adornment {
+    padding-left: 40px;
+}
